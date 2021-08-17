@@ -1,0 +1,40 @@
+.tarjeta-dia{
+    display: flex;
+    width: 80%;
+    margin: 1rem auto .5rem auto;
+    padding-bottom: 2rem;
+    flex-direction: column;
+    font-family: Raleway;
+    align-items: center;
+    letter-spacing: .1rem;
+    background-color: #1E213A;
+}
+.fecha{
+    font-size: 30px;
+}
+.temp{
+    margin: .2rem;
+}
+@media screen and (min-width:768px) {
+    .tarjeta-dia{
+        width: 200px;
+        padding-top: 0;
+        padding-bottom: .5rem;
+        margin: .1rem;
+    }
+    .fecha{
+        font-size: 20px;
+        margin: 0 auto .5rem auto;
+    }
+    .temp{
+        font-size: 12px;
+    }
+    img.mini{
+        width: 100px;
+        
+    }
+    .tamaño{
+        font-size: 12px;
+        margin-bottom: .5rem;
+    }
+}

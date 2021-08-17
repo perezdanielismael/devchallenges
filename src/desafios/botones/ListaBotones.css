@@ -1,0 +1,52 @@
+.botones-challenge{
+    color: white;
+}
+.titulo{
+    text-align: center;
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 36px;
+    letter-spacing: 0em;
+}
+h5{
+    font-family: 'Ubuntu', sans-serif;
+}
+.contenedor{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.fa-shopping-cart{
+    padding-left: .2rem;
+    padding-right: .2rem;
+}
+.seccionBotones{
+    display: flex;
+}
+.seccionBoton{
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.text{
+    color: red;
+}
+.tamaño{
+    font-size: 20px;
+    margin-left: 7px;
+    margin-right: 7px;
+}
+.sm{
+    width: 73px;
+}
+.md{
+    width: 81px;
+}
+.lg{
+    width: 93px;
+}

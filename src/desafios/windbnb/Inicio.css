@@ -1,0 +1,23 @@
+.contenedor-general{
+    width: 100%;
+    background-color: white;
+}
+.contenedor-hoteles{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}.titulo-hotel{
+    font-family: Montserrat;
+    font-weight: 700;
+   margin-left: 12%;
+   font-size: 25px;
+}
+.mensaje{
+    font-size: 25px;
+    text-align: center;
+    color: #333333;
+    font-family: 'Mulish', sans-serif;
+}

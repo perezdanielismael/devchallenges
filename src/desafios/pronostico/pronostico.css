@@ -1,0 +1,132 @@
+.content-pro{
+    color: white;
+}
+h1{
+    text-align: center;
+}
+.buscador{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+.input-ciudad{
+    border: 1px solid rgba(255, 255, 255, 0.884);
+    background-color:#1E213A;
+    color: white;
+    margin-top: 2rem;
+    height: 2rem;
+    border-radius: 4px;
+    padding-left: 1rem;
+    font-family: Raleway;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.input-ciudad:focus{
+   outline: none;
+}
+.btn-ciudad{
+    margin-top: .5rem;
+    height: 2rem;
+    color: white;
+    border: none;
+    background-color: #3C47E9;
+    font-family: Raleway;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 19px;
+    letter-spacing: 0em;
+}
+.contenedor-pronostico{
+    width: 100%;
+    margin-top: 2rem;
+}
+.pronostico{
+    width: 80%;
+    margin: 0 auto 5rem auto;
+    padding-bottom: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #1E213A;
+    font-family: Raleway;
+    letter-spacing: .1rem;
+}
+.icono{
+    width: 150px;
+}
+h2{
+    margin: .5rem;
+}
+.celsius{
+    font-size: 50px;
+}
+h4{
+    margin: 1rem;
+}
+.descripcion{
+    text-transform: uppercase;
+    background-color: #100E1D;
+    padding: .7rem;
+    
+}
+.contenedor-dias{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+@media screen and (min-width: 768px) {
+   .buscador{
+       flex-direction: row;
+       width: 100%;
+       justify-content: center;
+       align-items: center;
+       margin-top: 1rem;
+       margin-bottom: 2rem;
+   }
+   .input-ciudad{
+       margin-top: 0;
+   }
+   .btn-ciudad{
+       margin-top: 0;
+       margin-left: 1rem;
+       width: 150px;
+   }
+   .contenedor-pronostico{
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       margin: auto;
+       width: 90%;
+   }
+   .pronostico{
+       width: 30%;
+       margin-top: 0;
+   }
+   .right{
+       width: 70%;
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+   }
+   .big{
+       width: 90%;
+       text-align: center;
+    background-color: #1E213A;
+    font-family: Raleway;
+    letter-spacing: .1rem;
+    padding: 1rem;
+   }
+   .contenedor-dias{
+       width: 100%;
+       flex-direction: row;
+       flex-wrap: wrap;
+       justify-content: center;
+   }
+  
+}
